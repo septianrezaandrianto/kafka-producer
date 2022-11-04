@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "656d5ce9-42c3-4960-bb40-f848b6c81ecc",
+		"name": "Kafka",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23667285"
+	},
+	"item": [
+		{
+			"name": "Send Data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Reza\",\r\n    \"address\" : \"Bekasi Utara\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/sendData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"sendData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send Many Data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Reza\",\r\n    \"address\" : \"Bekasi Utara\",\r\n    \"totalData\" :10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/sendManyData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"sendManyData"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
