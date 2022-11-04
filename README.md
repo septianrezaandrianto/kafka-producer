@@ -9,5 +9,5 @@
 #If you have run the kafka server. \
 #You can run this project and hit the endpoint for testing that your configuration has successful. \
 #If you want to check your producer has sent message into your topic you can open new terminal into your kafka server folder \
-#and write this command : .\bin\windows\kafka-console-consumer.bat --topic <your_topic_name> --from-beginning --bootstrap-server localhost:9092
+#and write this command : .\bin\windows\kafka-console-consumer.bat --topic <your_topic_name> --from-beginning --bootstrap-server localhost:9092 \
 #Or you can clone the kafka-consumer project and look the log. https://github.com/septianrezaandrianto/kafka-consumer
