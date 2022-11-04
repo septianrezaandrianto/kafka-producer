@@ -4,7 +4,8 @@
 #You can download kafka server using this link : https://kafka.apache.org/downloads \
 #After you extract the kafka server zip file, \
 #don't forget to edit the **zookeper.properties** file and **server.properties** file under the config folder. \
-#You can follow the tutorial from this link : https://www.geeksforgeeks.org/how-to-install-and-run-apache-kafka-on-windows/ **(for windows users)**.
+#You can follow the tutorial from this link : https://www.geeksforgeeks.org/how-to-install-and-run-apache-kafka-on-windows/ **(for windows users)**. \
+#Or you can read the tutorial in this link https://www.linkedin.com/pulse/cara-konfigurasi-server-kafka-pada-windows-septian-reza-andrianto \
 
 #If you have run the kafka server. \
 #You can run this project and hit the endpoint for testing that your configuration has successful. \
