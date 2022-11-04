@@ -27,4 +27,14 @@ public class ProducerController {
         return "SUCCESS";
     }
 
+    @PostMapping("/sendManyData")
+    public String sendManyData(@RequestBody ProducerRequest producerRequest) {
+        Gson gson = new Gson();
+        for (int i= 0; i < producerRequest.getTotalData(); i++) {
+            producerRequest.setNumber(i);
+            kafkaTemplate.send(topic, gson.toJson(producerRequest));
+        }
+        return "SUCCESS";
+    }
+
 }

@@ -9,5 +9,7 @@ public class ProducerRequest {
 
     private String name;
     private String address;
+    private Integer totalData;
+    private Integer number;
 
 }

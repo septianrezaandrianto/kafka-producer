@@ -13,17 +13,5 @@ public class KafkaProducerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(KafkaProducerApplication.class, args);
 	}
-
-//	@Value("${spring.kafka.producer.topic}")
-//	private String topic;
-//
-//	@Bean
-//	CommandLineRunner commandLineRunner(KafkaTemplate<String, String> kafkaTemplate) {
-//		return args -> {
-//			for (int i=0; i < 10; i++) {
-//				kafkaTemplate.send(topic, "Testing Kafka Ke : " + i);
-//			}
-//		};
-//	}
-
+	
 }
